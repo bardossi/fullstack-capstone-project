@@ -93,21 +93,21 @@ function DetailsPage() {
                             <div className="no-image-available-large">No Image Available</div>
                         )}
                     </div>
-                    // Task 6: Display gift details
+                    {/* Task 6: Display gift details */}
                     <p><strong>Category:</strong>
-                        {/* insert code here  */}
+                        {gift.category}
                     </p>
                     <p><strong>Condition:</strong>
-                        {/* insert code here  */}
+                        {gift.condition}
                     </p>
                     <p><strong>Date Added:</strong>
-                        {/* insert code here  */}
+                        {gift.dateAdded}
                     </p>
                     <p><strong>Age (Years):</strong>
-                        {/* insert code here  */}
+                        {gift.age}
                     </p>
                     <p><strong>Description:</strong>
-                        {/* insert code here  */}
+                        {gift.description}
                     </p>
                 </div>
             </div>
